@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Lawnmower</string>
+    <string name="title_activity_main">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="versionNumber">Version 0.42</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="use_master">Connect</string>
+    <string name="cancel">Cancel</string>
+    <string name="qr_code">Read QRCode</string>
+    <string name="master_uri_hint">http://localhost:11311/</string>
+    <string name="new_master">New Public Master</string>
+    <string name="new_private_master">New Private Master</string>
+    <string name="show_advanced">Erweiterte Einstellungen anzeigen</string>
+    <string name="select_interface">Verfügbare Netztwerke</string>
+    <string name="uri_text">Master URI:</string>
+
+        <string name="stop_app">Kill</string>
+        <string name="default_robot"></string>
+        <string name="default_app">LAWNMOWER</string>
+        <string name="map_frame">map</string>
+        <string name="robot_frame">base_link</string>
+        <string name="camera_topic">compressed_image</string>
+        <string name="joystick_topic">cmd_vel</string>
+        <string name="map_topic">map</string>
+        <string name="scan_topic">scan</string>
+        <string name="save_map_srv">save_map</string>
+
+    <string name="getMasterUriNotConnected">No master currently connected.</string>
+    <string name="CameraCompressedTopic">/usb_cam/image_raw/compressed</string>
+    <string name="CmdVelTopic">/cmd_vel</string>
+    <string name="LCDNode">/LCDstring</string>
+    <string name="sonar1Topic">/arduino/sonar_1</string>
+    <string name="sonar2Topic">/arduino/sonar_2</string>
+    <string name="sonar3Topic">/arduino/sonar_3</string>
+    <string name="whs_adresse">https://www.w-hs.de/</string>
+
+</resources>
